@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+  schedule:
+  - cron: 52 10 * * 6
+
+jobs:
+  plugin_test:
+    name: asdf plugin test
+    strategy:
+      matrix:
+        os:
+        - ubuntu-latest
+        - macos-latest
+    runs-on: ${{ matrix.os }}
+    steps:
+    - name: asdf_plugin_test
+      uses: asdf-vm/actions/plugin-test@v1
+      with:
+        command: chezmoi --version

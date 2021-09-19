@@ -1,0 +1,9 @@
+= asdf-chezmoi
+
+https://github.com/twpayne/chezmoi[chezmoi] plugin for https://github.com/asdf-vm/asdf[asdf] version manager
+
+== Install
+
+```
+asdf plugin-add chezmoi https://github.com/joke/asdf-chezmoi.git
+```
