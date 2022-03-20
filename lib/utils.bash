@@ -44,7 +44,7 @@ detect_architecture() {
   case $(uname -m) in
     x86_64) echo "amd64" ;;
     ppc64le) echo "ppc64le" ;;
-    aarch64 | aarch64_be | armv8b | armv8l) echo "arm64" ;;
+    aarch64 | aarch64_be | armv8b | armv8l | arm64) echo "arm64" ;;
     *) fail "Architecture not supported" ;;
 
   esac
