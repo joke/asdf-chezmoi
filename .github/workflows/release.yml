@@ -1,4 +1,4 @@
-name: Release
+name: release
 
 on:
   push:
@@ -8,7 +8,10 @@ on:
 jobs:
   release-please:
     runs-on: ubuntu-latest
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
     steps:
-    - uses: GoogleCloudPlatform/release-please-action@v2
+    - uses: GoogleCloudPlatform/release-please-action@v3.1
+      id: release
       with:
         release-type: simple
