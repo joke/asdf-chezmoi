@@ -7,3 +7,7 @@ https://github.com/twpayne/chezmoi[chezmoi] plugin for https://github.com/asdf-v
 ```
 asdf plugin-add chezmoi https://github.com/joke/asdf-chezmoi.git
 ```
+
+== Contributing
+
+If you're looking to contribute, you can find additional information in link:CONTRIBUTING.adoc[here].
