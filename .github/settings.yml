@@ -38,8 +38,6 @@ branches:
         app_id: 15368
       - context: asdf plugin test (macos-latest)
         app_id: 15368
-      - context: pre-commit
-        app_id: 15368
     enforce_admins: false
     required_linear_history: true
     restrictions:
