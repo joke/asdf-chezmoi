@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/joke/asdf-chezmoi/compare/v1.0.0...v1.0.1) (2022-09-18)
+
+
+### Bug Fixes
+
+* identify reported arch 'amd64' as amd64 ([8ab6039](https://github.com/joke/asdf-chezmoi/commit/8ab603917cbb53b617157d9ccbe9a27b28b959ff))
+
 ## 1.0.0 (2022-03-20)
 
 
