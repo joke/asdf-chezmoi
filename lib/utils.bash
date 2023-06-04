@@ -50,6 +50,13 @@ detect_architecture() {
   esac
 }
 
+detect_variant() {
+  case "$(ldd /bin/sh)" in
+    *musl*) echo '-musl';;
+    *) echo '';
+  esac
+}
+
 download_release() {
   local version platform filename url
   version="$1"
