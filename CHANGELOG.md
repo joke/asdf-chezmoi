@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/joke/asdf-chezmoi/compare/v1.0.1...v1.0.2) (2023-06-04)
+
+
+### Bug Fixes
+
+* libmusl support fix [#34](https://github.com/joke/asdf-chezmoi/issues/34) ([8824ddc](https://github.com/joke/asdf-chezmoi/commit/8824ddce91b01a70fe7103554874f0745672da24))
+
 ## [1.0.1](https://github.com/joke/asdf-chezmoi/compare/v1.0.0...v1.0.1) (2022-09-18)
 
 
