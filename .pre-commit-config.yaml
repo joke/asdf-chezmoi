@@ -14,7 +14,7 @@ repos:
   - id: pretty-format-json
   - id: trailing-whitespace
 - repo: https://github.com/syntaqx/git-hooks
-  rev: v0.0.17
+  rev: v0.0.18
   hooks:
   - id: shellcheck
   - id: shfmt
@@ -27,7 +27,7 @@ repos:
     - --indent
     - '2'
 - repo: https://github.com/compilerla/conventional-pre-commit
-  rev: v2.2.0
+  rev: v2.3.0
   hooks:
   - id: conventional-pre-commit
     stages: [commit-msg]
