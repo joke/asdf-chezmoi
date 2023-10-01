@@ -10,7 +10,7 @@ source "${plugin_dir}/lib/utils.bash"
 
 mkdir -p "$ASDF_DOWNLOAD_PATH"
 
-platform="$(detect_system)_$(detect_architecture)$(detect_variant)"
+platform="$(detect_system)$(detect_variant)_$(detect_architecture)"
 release_file="$ASDF_DOWNLOAD_PATH/$TOOL_NAME-$ASDF_INSTALL_VERSION.tar.gz"
 
 # Download tar.gz file to the download directory
