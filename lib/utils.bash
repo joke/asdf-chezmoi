@@ -51,7 +51,7 @@ detect_architecture() {
 }
 
 detect_variant() {
-  case "$(ldd /bin/sh)" in
+  case "$(command -v ldd >/dev/null && ldd /bin/sh)" in
     *musl*) echo '-musl';;
     *) echo '';
   esac
