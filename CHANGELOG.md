@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3](https://github.com/joke/asdf-chezmoi/compare/v1.0.2...v1.0.3) (2023-11-29)
+
+
+### Bug Fixes
+
+* Assume glibc when `ldd` command not present. fix [#44](https://github.com/joke/asdf-chezmoi/issues/44) ([9e7d152](https://github.com/joke/asdf-chezmoi/commit/9e7d1521a759e8db4d1ee762f663279b1b821365))
+* url for musl binary. fix [#39](https://github.com/joke/asdf-chezmoi/issues/39) ([9643c7d](https://github.com/joke/asdf-chezmoi/commit/9643c7dd235ffa33d9ae824842f1cfc8a587efe5))
+
 ## [1.0.2](https://github.com/joke/asdf-chezmoi/compare/v1.0.1...v1.0.2) (2023-06-04)
 
 
